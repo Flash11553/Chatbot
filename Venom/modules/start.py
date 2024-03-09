@@ -30,11 +30,11 @@ async def start(_, m: Message):
             text=random.choice(EMOJIOS),
         )
         await asyncio.sleep(1.3)
-        await accha.edit("__ᴄʜᴀᴛʙᴏᴛ ʙᴀşʟᴀʏɪʀ__")
+        await accha.edit("Aytac Chat-a Başladı.")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴄʜᴀᴛʙᴏᴛ ʙᴀşʟᴀʏɪʀ...__")
+        await accha.edit("Aytac Chat-a Başladı..")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴄʜᴀᴛʙᴏᴛ ʙᴀşʟᴀʏɪʀ.....__")
+        await accha.edit("Aytac Chat-a Başladı...")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(sticker=random.choice(STICKER))
@@ -42,7 +42,7 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**๏ Salam👋 Mənim Adım {VenomX.name}**\n**Qruplar üçün yaradılmış Çat Botuyam.**\n**──────────────**\n**➻ İstifadəsi /chatbot [on/off]**\n<b>||๏ @The_ferid hazırlamışdır !||</b>""",
+            caption=f"""**๏ Salam👋 Mənim Adım {VenomX.name}**\n**Qruplar üçün yaradılmış Çat Botuyam.**\n**──────────────**\n**➻ İstifadəsi /chatbot [on/off]**\n<b>||๏ @ElikoOwner hazırlamışdır !||</b>""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
