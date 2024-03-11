@@ -6,7 +6,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", 14965050))
 API_HASH = getenv("API_HASH", "38bab2dab10fc1b6a9ba0bf683fd7048")
-BOT_TOKEN = getenv("BOT_TOKEN", "6749711170:AAGd9dDULXFbvMIcw32SupB5_7nuJrUfp0k")
+BOT_TOKEN = getenv("BOT_TOKEN", "6749711170:AAFOX85KVqe4nJ4dUk04rU9GQLRQ3TwJ3CA")
 OWNER_ID = int(getenv("OWNER_ID", "5615367098"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://AytacChatBot:AytacChatBot@aytacchatbot.7ygam8m.mongodb.net/?retryWrites=true&w=majority")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "PasterSuports")
