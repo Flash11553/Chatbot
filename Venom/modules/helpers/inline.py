@@ -16,10 +16,10 @@ DEV_OP = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
+        InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴀǫǫɪᴍᴅᴀ 👾", callback_data="ABOUT"),
+        InlineKeyboardButton(text="Haqqımda 👾", callback_data="ABOUT"),
     ],
 ]
 
