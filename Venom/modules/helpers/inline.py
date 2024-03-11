@@ -6,15 +6,14 @@ from Venom import VenomX
 
 DEV_OP = [
     [
+        InlineKeyboardButton(text="Sahibəm 👸", user_id=OWNER),
+        InlineKeyboardButton(text="Status Kanal 🕊️", url=f"https://t.me/{SUPPORT_GRP}"),
+    ],
+    [
         InlineKeyboardButton(
             text="➕ ǫʀᴜᴘᴀ əʟᴀᴠə ᴇᴛ ➕",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
-    ],
-    [
-        InlineKeyboardButton(text="sᴀʜiʙ 👨🏻‍💻", user_id=OWNER),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/{SUPPORT_GRP}"),
-    ],
     ],
     [
         InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
