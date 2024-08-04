@@ -16,27 +16,27 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "14965050"
+      "value": "24049614"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "38bab2dab10fc1b6a9ba0bf683fd7048"
+      "value": "e1936f93366810f1bc6eb38fa6e6f49c"
     },
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
-      "value": "6749711170:AAGd9dDULXFbvMIcw32SupB5_7nuJrUfp0k"
+      "value": "7329182648:AAEo2orDgAbS23DJCPCpNTJpfuGwwkzfouM"
     },
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "required": true,
-      "value": "mongodb+srv://AytacChatBot:AytacChatBot@aytacchatbot.7ygam8m.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://NigarChatBot:NigarChatBot@nigarchatbot.pbfos1e.mongodb.net/?retryWrites=true&w=majority"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
       "required": true,
-      "value": "5615367098"
+      "value": "7406471382"
     }
   }
 }
