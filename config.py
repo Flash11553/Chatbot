@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 14965050))
-API_HASH = getenv("API_HASH", "38bab2dab10fc1b6a9ba0bf683fd7048")
+API_ID = int(getenv("API_ID", 24049614))
+API_HASH = getenv("API_HASH", "e1936f93366810f1bc6eb38fa6e6f49c")
 BOT_TOKEN = getenv("BOT_TOKEN", "7329182648:AAEo2orDgAbS23DJCPCpNTJpfuGwwkzfouM")
 OWNER_ID = int(getenv("OWNER_ID", "7406471382"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://NigarChatBot:NigarChatBot@nigarchatbot.pbfos1e.mongodb.net/?retryWrites=true&w=majority")
