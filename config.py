@@ -6,7 +6,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", 24049614))
 API_HASH = getenv("API_HASH", "e1936f93366810f1bc6eb38fa6e6f49c")
-BOT_TOKEN = getenv("BOT_TOKEN", "6749711170:AAFOX85KVqe4nJ4dUk04rU9GQLRQ3TwJ3CA")
+BOT_TOKEN = getenv("BOT_TOKEN", "67393095762:AAEXpr7nkCgM0nylUatWudAm7QN36aS0-fg")
 OWNER_ID = int(getenv("OWNER_ID", "7406471382"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://NigarChatBot:NigarChatBot@nigarchatbot.pbfos1e.mongodb.net/?retryWrites=true&w=majority")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "sohbetazerbaycanteamchat")
