@@ -6,8 +6,8 @@ from Venom import VenomX
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="Sahibəm 👸", user_id=OWNER),
-        InlineKeyboardButton(text="Status Kanal 🕊️", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="Sahibəm 🤵‍♂️", user_id=OWNER),
+        InlineKeyboardButton(text="Sohbet Qrupu 💬", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
