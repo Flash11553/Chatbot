@@ -7,11 +7,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", 24049614))
 API_HASH = getenv("API_HASH", "e1936f93366810f1bc6eb38fa6e6f49c")
 BOT_TOKEN = getenv("BOT_TOKEN", "7393095762:AAHW7dKK9eve7al2kStlru2vEabhWOU4rYY")
-OWNER_ID = int(getenv("OWNER_ID", "7406471382"))
+OWNER_ID = int(getenv("OWNER_ID", "7171672875"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://NigarChatBot:NigarChatBot@nigarchatbot.pbfos1e.mongodb.net/?retryWrites=true&w=majority")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "BizimChat")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "raxadi42")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@Raxaditalish")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@chapman313")
 
 # Random Start Images
 IMG = [
