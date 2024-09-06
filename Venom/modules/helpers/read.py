@@ -6,7 +6,7 @@ START = f"""
 **Qruplar üçün yaradılmış Çat Botuyam.**
 **──────────────**
 **➻ İstifadəsi /chatbot [on/off]**
-<b>||๏ @Raxaditalish hazırlamışdır !||</b>
+<b>||๏ @Rafodayi hazırlamışdır !||</b>
 """
 
 HELP_READ = f"""
