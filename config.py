@@ -10,7 +10,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7393095762:AAFI1inbNl3Yg1SnsYRqNX1WiFo7bgssLSg"
 OWNER_ID = int(getenv("OWNER_ID", "7315918342"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://NigarChatBot:NigarChatBot@nigarchatbot.pbfos1e.mongodb.net/?retryWrites=true&w=majority")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "nasasohbetteam")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "raxadi42")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "nrsohbet")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@Rafodayi")
 
 # Random Start Images
