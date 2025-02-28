@@ -19,7 +19,6 @@ DEV_OP = [
         InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
         InlineKeyboardButton(text="Haqqımda 👾", callback_data="ABOUT"),
     ],
-]
    
     [
         InlineKeyboardButton(text=" ʀəsᴍi ᴋᴀɴᴀʟ 🐳", url=f"https://t.me/{UPDATE_CHNL}"),
