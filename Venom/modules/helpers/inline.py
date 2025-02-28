@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 
-from config import SUPPORT_GRP, UPDATE_CHNL
+from config import SUPPORT_GRP, UPDATE_CHNL, PLAYLIST_NAME
 from Venom import OWNER
 from Venom import VenomX
 
@@ -16,7 +16,7 @@ DEV_OP = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Kanal 🤍", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text="Kanal 🤍", url=f"https://t.me/{PLAYLIST_NAME}"),
         InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
    
