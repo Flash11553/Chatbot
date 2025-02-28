@@ -17,7 +17,7 @@ DEV_OP = [
     ],
     [
         InlineKeyboardButton(text="Kanal 🤍", url=f"https://t.me/{UPDATE_CHNL}"),
-        InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{PLAYLIST_NAME}"),
+        InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
    
     [
