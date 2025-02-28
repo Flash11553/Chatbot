@@ -20,6 +20,11 @@ DEV_OP = [
         InlineKeyboardButton(text="Haqqımda 👾", callback_data="ABOUT"),
     ],
 ]
+   
+    [
+        InlineKeyboardButton(text=" ʀəsᴍi ᴋᴀɴᴀʟ 🐳", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text=" Playist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
+    ],
 
 PNG_BTN = [
     [
@@ -120,7 +125,7 @@ ABOUT_BTN = [
         InlineKeyboardButton(text="sᴀʜiʙ 👨🏻‍💻", user_id=OWNER),
     ],
     [
-        InlineKeyboardButton(text="🐳 ʀəsᴍi ᴋᴀɴᴀʟ 🐳", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
         InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
     ],
 ]
