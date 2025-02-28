@@ -11,7 +11,7 @@ OWNER_ID = int(getenv("OWNER_ID", "7925819123"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://AytacChatBot:AytacChatBot@aytacchatbot.ukjqf.mongodb.net/?retryWrites=true&w=majority")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "DeathTimeGroup")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "QelbxYazari")
-MUSIC_CHNL = getenv("MUSIC_CHNL", "ElikoxMusic")
+PLAYLIST_NAME = getenv("PLAYLIST_NAME", "ElikoxMusic")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@Eliko7x7")
 
 # Random Start Images
