@@ -24,6 +24,7 @@ DEV_OP = [
         InlineKeyboardButton(text=" ʀəsᴍi ᴋᴀɴᴀʟ 🐳", url=f"https://t.me/{UPDATE_CHNL}"),
         InlineKeyboardButton(text=" Playist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
+]
 
 PNG_BTN = [
     [
