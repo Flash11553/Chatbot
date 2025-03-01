@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 
-from config import SUPPORT_GRP, UPDATE_CHNL, PLAYLIST_NAME
+from config import SUPPORT_GRP, UPDATE_CHNL, PLAYLIST_NAME SUPPORT_CHNL
 from Venom import OWNER
 from Venom import VenomX
 
@@ -22,7 +22,7 @@ DEV_OP = [
    
     [
        InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
-       InlineKeyboardButton(text="Support 💬", url=f"https://t.me/{SUPPORT_GRP}"),
+       InlineKeyboardButton(text="Support 💬", url=f"https://t.me/{SUPPORT_CHNL}"),
     ],
 ]
 
