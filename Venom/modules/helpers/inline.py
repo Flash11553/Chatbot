@@ -52,6 +52,7 @@ BACK = [
 ABOUT_BTN = [
     [
         InlineKeyboardButton(text="Chat Bot", url=f"https://t.me/{VenomX.username}?startgroup=true",)
+        InlineKeyboardButton(text="Chat Bot", url=f"https://t.me/{VenomX.username}?startgroup=true",)
     ]
 ]
 
