@@ -43,8 +43,8 @@ async def start(_, m: Message):
         await m.reply_photo(
             photo=random.choice(IMG),
             caption=f"""** 👋 Salam Xoş Gördük
-✅️ Qruplar üçün yaradılmış Çat Botuyam.
-🆘 Burada Sizin Reklamınız ola bilər:@Eliko7x7 """,
+✅️ Qruplar üçün yaradılmış çat botuyam.
+🆘 Burada Sizin Reklamınız Ola Bilər:@Eliko7x7 """,
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
