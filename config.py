@@ -13,7 +13,7 @@ SUPPORT_GRP = getenv("SUPPORT_GRP", "DeathTimeGroup")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "GunaySupportChats")
 PLAYLIST_NAME = getenv("UPDATE_CHNL", "Darkksaga")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "ElikoxMusic")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@Eliko7x7")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Eliko7x7")
 
 # Random Start Images
 IMG = [
