@@ -22,7 +22,7 @@ DEV_OP = [
    
     [
        InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
-        InlineKeyboardButton(text="Haqqımda 👾", callback_data="ABOUT"), 
+       InlineKeyboardButton(text="Support 💬", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
 ]
 
@@ -117,9 +117,6 @@ HELP_BUTN = [
 
 
 ABOUT_BTN = [
-    [
-        InlineKeyboardButton(text="Support 💬", url=f"https://t.me/{SUPPORT_GRP}"),
-    ],
     [
         InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
         InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
