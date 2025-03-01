@@ -29,7 +29,7 @@ DEV_OP = [
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="➕ ǫʀᴜᴘᴀ əʟᴀᴠə ᴇᴛ ➕",
+            text="🩶 Qrupa Əlavə Edin 🩶",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
