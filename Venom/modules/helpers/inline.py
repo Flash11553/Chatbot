@@ -49,6 +49,13 @@ BACK = [
 ]
 
 
+BOTLARIM = [
+    [
+        InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
+    ],
+]
+
+
 HELP_BTN = [
     [
         InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
