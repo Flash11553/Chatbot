@@ -49,12 +49,11 @@ BACK = [
 ]
 
 
-BOTLAR = [
+ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
-    ],
+        InlineKeyboardButton(text="Chat Bot", url=f"https://t.me/{VenomX.username}?startgroup=true",)
+    ]
 ]
-
 
 HELP_BTN = [
     [
