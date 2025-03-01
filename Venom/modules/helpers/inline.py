@@ -6,7 +6,7 @@ from Venom import VenomX
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="Sahib 🤵‍♂️", user_id=OWNER),
+        InlineKeyboardButton(text="Sahib 👨‍💻", user_id=OWNER),
         InlineKeyboardButton(text="Sohbet Qrupu 🇦🇿", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
@@ -22,7 +22,7 @@ DEV_OP = [
    
     [
        InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
-       InlineKeyboardButton(text="Botlarim 💬", callback_data="ABOUT"),
+       InlineKeyboardButton(text="Haqqimda 🔍", callback_data="ABOUT"),
     ],
 ]
 
@@ -46,16 +46,6 @@ BACK = [
     [
         InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
     ],
-]
-
-
-ABOUT_BTN = [
-    [
-        InlineKeyboardButton(text="Chat Bot", url=f"https://t.me/{VenomX.username}?startgroup=true",)
-    ],
-    [ 
-        InlineKeyboardButton(text="Chat Bot", url=f"https://t.me/{VenomX.username}?startgroup=true",)
-    ]
 ]
 
 HELP_BTN = [
