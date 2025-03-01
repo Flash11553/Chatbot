@@ -22,7 +22,7 @@ DEV_OP = [
    
     [
        InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
-        InlineKeyboardButton(text="Haqqımda 👾", callback_data="ABOUT"), 
+       InlineKeyboardButton(text="Support 🛠", url=f"https://t.me/{SUPPORT_GRP}"),), 
     ],
 ]
 
@@ -112,20 +112,5 @@ HELP_BUTN = [
             text="ᴋöᴍəᴋ 🔮", url=f"https://t.me/{VenomX.username}?start=help"
         ),
         InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
-    ],
-]
-
-
-ABOUT_BTN = [
-    [
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/{SUPPORT_GRP}"),
-        InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
-    ],
-    [
-        InlineKeyboardButton(text="sᴀʜiʙ 👨🏻‍💻", user_id=OWNER),
-    ],
-    [
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
-        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
     ],
 ]
