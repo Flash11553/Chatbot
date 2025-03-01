@@ -103,13 +103,3 @@ HELP_START = [
         InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
     ],
 ]
-
-
-HELP_BUTN = [
-    [
-        InlineKeyboardButton(
-            text="ᴋöᴍəᴋ 🔮", url=f"https://t.me/{VenomX.username}?start=help"
-        ),
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
-    ],
-]
