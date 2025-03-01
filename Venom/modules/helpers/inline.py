@@ -119,7 +119,6 @@ HELP_BUTN = [
 ABOUT_BTN = [
     [
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/{SUPPORT_GRP}"),
-        InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text="sᴀʜiʙ 👨🏻‍💻", user_id=OWNER),
