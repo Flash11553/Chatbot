@@ -3,8 +3,8 @@ from Venom import VenomX
 
 START = f"""
 👋 Salam Xoş Gördük
-✅️ Qruplar üçün yaradılmış Çat Botuyam.
-🆘 Burada Sizin Reklamınız ola bilər:@Eliko7x7
+✅️ Qruplar üçün yaradılmış çat botuyam.
+🆘 Burada Sizin Reklamınız Ola Bilər:@Eliko7x7
 """
 
 HELP_READ = f"""
