@@ -54,8 +54,8 @@ HELP_BTN = [
         InlineKeyboardButton(text="🎄 ᴀʟəᴛʟəʀ 🎄", callback_data="TOOLS_DATA"),
     ],
     [
-        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="BACK"),
         InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="BACK"),
     ],
 ]
 
