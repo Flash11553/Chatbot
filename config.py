@@ -10,7 +10,6 @@ BOT_TOKEN = getenv("BOT_TOKEN", "8042740915:AAF3OqkxAetCoNUHh5oW36geyZqYLfs-miI"
 OWNER_ID = int(getenv("OWNER_ID", "7925819123"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://GunayChatBot:GunayChatBot@gunaychatbot.tcad1.mongodb.net/?retryWrites=true&w=majority")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "DeathTimeGroup")
-SUPPORT_GRP = getenv("SUPPORT_GRP", "DeathTimeGroup")
 PLAYLIST_NAME = getenv("UPDATE_CHNL", "Darkksaga")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "ElikoxMusic")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@Eliko7x7")
