@@ -11,7 +11,7 @@ DEV_OP = [
     ],
     [
         InlineKeyboardButton(
-            text="🤍 Qrupa ƏlavəEdin 🤍",
+            text="🤍 Qrupa Əlavə Edin 🤍",
             url=f"https://t.me/{VenomX.username}?startgroup=true",
         ),
     ],
