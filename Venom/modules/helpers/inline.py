@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 
-from config import SUPPORT_GRP, UPDATE_CHNL, PLAYLIST_NAME SUPPORT_CHNL
+from config import SUPPORT_GRP, UPDATE_CHNL, PLAYLIST_NAME, SUPPORT_CHNL
 from Venom import OWNER
 from Venom import VenomX
 
