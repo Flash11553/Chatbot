@@ -1,46 +1,131 @@
-from config import OWNER_USERNAME, SUPPORT_GRP
+from pyrogram.types import InlineKeyboardButton
+
+from config import SUPPORT_GRP, UPDATE_CHNL, PLAYLIST_NAME
+from Venom import OWNER
 from Venom import VenomX
 
-START = f"""
-๏ Salam👋 Mənim Adım {VenomX.name}
-Qruplar üçün yaradılmış Çat Botuyam.
-──────────────
-➻ İstifadəsi /chatbot [on/off]
-<b>๏ @Eliko7x7 hazırlamışdır !</b>
-"""
+DEV_OP = [
+    [
+        InlineKeyboardButton(text="Sahib 🤵‍♂️", user_id=OWNER),
+        InlineKeyboardButton(text="Sohbet Qrupu 🇦🇿", url=f"https://t.me/{SUPPORT_GRP}"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ ǫʀᴜᴘᴀ əʟᴀᴠə ᴇᴛ ➕",
+            url=f"https://t.me/{VenomX.username}?startgroup=true",
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="Kanal 🤍", url=f"https://t.me/{PLAYLIST_NAME}"),
+        InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
+    ],
+   
+    [
+       InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
+        InlineKeyboardButton(text="Haqqımda 👾", callback_data="ABOUT"), 
+    ],
+]
 
-HELP_READ = f"""
-<u>{VenomX.name}- üçün</u>
-<u>Əmrlər aşağıda verilmişdir!</u>
-Bütün əmrləri / ilə istifadə edə bilərsiniz
-──────────────
-<b>©️ @{OWNER_USERNAME}</b>
-"""
+PNG_BTN = [
+    [
+        InlineKeyboardButton(
+            text="➕ ǫʀᴜᴘᴀ əʟᴀᴠə ᴇᴛ ➕",
+            url=f"https://t.me/{VenomX.username}?startgroup=true",
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="çɪxɪş 🚫",
+            callback_data="CLOSE",
+        ),
+    ],
+]
 
-TOOLS_DATA_READ = f"""
-<u>{VenomX.name}- üçün alətlər:</u>
-➻ Kommand /ping {VenomX.name}- un pingini yoxlayın
-──────────────
-➻ öz istifadəçi id, söhbət id və öz id - ni əldə etmək üçün /id komutu ilə istifadə edin.
-──────────────
-<b>©️ @{OWNER_USERNAME}</b>
-"""
 
-CHATBOT_READ = f"""
-<u>{VenomX.name}- üçün əmr</u>
-➻ /chatbot (on/off) ilə aktiv edə bilərsiniz
-๏ Qeyd yuxarıdakə əmr sadəcə qruplar üçün etibarlıdır!!
-<b>©️ @{OWNER_USERNAME}</b>
-"""
+BACK = [
+    [
+        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
+    ],
+]
 
-SOURCE_READ = f"Salam, [{VenomX.name}](https://t.me/{VenomX.username})- in mənbə kodu aşağıda verilmişdir.\nXAHIŞ EDİRƏM REPO-Nİ FORK EDİN VƏ YILDIZI VERİN ✯\n──────────────────\nMƏNBƏ KODU [burada](https://github.com/venombolteop/ChatbotV2)\n──────────────────\n**ƏGƏR HANSI-SA PROBLEMİ BAŞ VERƏRSƏ, ONDAN SONRA [DƏSTƏK QURULUŞUNA](https://t.me/{SUPPORT_GRP}) MÜRACİƏT EDİN.\n<b>©️ @{OWNER_USERNAME}</b>"
 
-ADMIN_READ = f"Yenidir"
+HELP_BTN = [
+    [
+        InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
+        InlineKeyboardButton(text="🎄 ᴀʟəᴛʟəʀ 🎄", callback_data="TOOLS_DATA"),
+    ],
+    [
+        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+    ],
+]
 
-ABOUT_READ = f"""
-➻ [{VenomX.name}](https://t.me/{VenomX.username})- in bir çat-botdur.
-➻ [{VenomX.name}](https://t.me/{VenomX.username})- avtomatik olaraq istifadəçiyə cavab verir.
-➻ Qruplarınızı aktivləşdirməyinizə kömək edir.
-➻ [Python](https://www.python.org) ilə yazılıb [MongoDB](https://www.mongodb.com) kimi verilənlər bazası ilə.
-➻ [{VenomX.name}](https://t.me/{VenomX.username})- haqqında əsas kömək və məlumat üçün aşağıda verilmiş düymələrə basın
-"""
+
+CLOSE_BTN = [
+    [
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+    ],
+]
+
+
+CHATBOT_ON = [
+    [
+        InlineKeyboardButton(text="ᴀᴋᴛiᴠ ᴇᴛ", callback_data=f"addchat"),
+        InlineKeyboardButton(text="ᴅᴇᴀᴋᴛiᴠ ᴇᴛ", callback_data=f"rmchat"),
+    ],
+]
+
+
+MUSIC_BACK_BTN = [
+    [
+        InlineKeyboardButton(text="sᴏᴏɴ", callback_data=f"soom"),
+    ],
+]
+
+S_BACK = [
+    [
+        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="SBACK"),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+    ],
+]
+
+
+CHATBOT_BACK = [
+    [
+        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="CHATBOT_BACK"),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+    ],
+]
+
+
+HELP_START = [
+    [
+        InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+    ],
+]
+
+
+HELP_BUTN = [
+    [
+        InlineKeyboardButton(
+            text="ᴋöᴍəᴋ 🔮", url=f"https://t.me/{VenomX.username}?start=help"
+        ),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+    ],
+]
+
+
+ABOUT_BTN = [
+    [
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
+    ],
+    [
+        InlineKeyboardButton(text="sᴀʜiʙ 👨🏻‍💻", user_id=OWNER),
+    ],
+    [
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
+    ],
+]
