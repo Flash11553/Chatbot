@@ -2,11 +2,11 @@ from config import OWNER_USERNAME, SUPPORT_GRP
 from Venom import VenomX
 
 START = f"""
-๏ Salam👋 Mənim Adım {VenomX.name}
+๏ 👋 Salam Xoş Gördük Mənim Adım {VenomX.name}
 Qruplar üçün yaradılmış Çat Botuyam.
 ──────────────
-➻ İstifadəsi /chatbot [on/off]
-<b>๏ @Eliko7x7 hazırlamışdır !</b>
+✅ Mən {VenomX.name} Rəsmi Söhbət Botuyam
+🆘 Burada Sizin Reklamınız ola bilər:@Eliko7x7
 """
 
 HELP_READ = f"""
