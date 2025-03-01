@@ -118,7 +118,7 @@ HELP_BUTN = [
 
 ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="Support 💬", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="Support 💬", url=f"https://t.me/{SUPPORT_NAME}"),
     ],
     [
         InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
