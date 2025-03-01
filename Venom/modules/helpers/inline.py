@@ -22,7 +22,7 @@ DEV_OP = [
    
     [
        InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
-       InlineKeyboardButton(text="Botlarim 💬", callback_data= "HELP"),
+       InlineKeyboardButton(text="Botlarim 💬", callback_data= "BOTLAR"),
     ],
 ]
 
