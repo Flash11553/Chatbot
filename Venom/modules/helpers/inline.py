@@ -21,7 +21,7 @@ DEV_OP = [
     ],
    
     [
-       InlineKeyboardButton(text="Kömək 🔮", callback_data="HELP"),
+       InlineKeyboardButton(text="Bot Əmrləri 🛠", callback_data="HELP"),
        InlineKeyboardButton(text="Haqqimda 🔍", callback_data="ABOUT"),
     ],
 ]
@@ -35,7 +35,7 @@ PNG_BTN = [
     ],
     [
         InlineKeyboardButton(
-            text="çɪxɪş 🚫",
+            text="✖️ Bağla",
             callback_data="CLOSE",
         ),
     ],
@@ -44,7 +44,7 @@ PNG_BTN = [
 
 BACK = [
     [
-        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
+        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="BACK"),
     ],
 ]
 
@@ -54,15 +54,15 @@ HELP_BTN = [
         InlineKeyboardButton(text="🎄 ᴀʟəᴛʟəʀ 🎄", callback_data="TOOLS_DATA"),
     ],
     [
-        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="BACK"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
     ],
 ]
 
 
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
     ],
 ]
 
@@ -83,16 +83,16 @@ MUSIC_BACK_BTN = [
 
 S_BACK = [
     [
-        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="SBACK"),
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="SBACK"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
     ],
 ]
 
 
 CHATBOT_BACK = [
     [
-        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="CHATBOT_BACK"),
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="CHATBOT_BACK"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
     ],
 ]
 
@@ -100,7 +100,7 @@ CHATBOT_BACK = [
 HELP_START = [
     [
         InlineKeyboardButton(text="ᴋöᴍəᴋ 🔮", callback_data="HELP"),
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
     ],
 ]
 
@@ -110,14 +110,14 @@ HELP_BUTN = [
         InlineKeyboardButton(
             text="ᴋöᴍəᴋ 🔮", url=f"https://t.me/{VenomX.username}?start=help"
         ),
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
     ],
 ]
 
 
 ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
-        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="BACK"),
+        InlineKeyboardButton(text="✖️ Bağla", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 Geri Qayıt", callback_data="BACK"),
     ],
 ]
