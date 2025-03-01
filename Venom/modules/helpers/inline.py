@@ -49,7 +49,7 @@ BACK = [
 ]
 
 
-BOTLARIM = [
+BOTLAR = [
     [
         InlineKeyboardButton(text="Playlist 🎧", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
